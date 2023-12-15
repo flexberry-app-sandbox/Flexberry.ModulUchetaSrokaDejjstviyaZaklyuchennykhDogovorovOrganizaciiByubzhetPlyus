@@ -60,8 +60,12 @@ export let defineProjections = function (modelClass) {
     }, { index: 1, displayMemberPath: 'номер' }),
     использовано: attr('Использовано', { index: 5 }),
     доступно: attr('Доступно', { index: 6 }),
-    оказУслуг: hasMany('i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-organizacii-byubzhet-plyus-оказ-услуг', 'Оказ услуг', {
-      
+    оказУслуг: hasMany('i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-organizacii-byubzhet-plyus-оказ-услуг', 'Оказание услуг', {
+      дата: attr('Дата', { index: 0 }),
+      услуги: belongsTo('i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-organizacii-byubzhet-plyus-услуги', 'Наименование услуги', {
+        затрВрем: attr('Затраченное время', { index: 2 }),
+        едВремени: attr('Единица времени', { index: 3 })
+      }, { index: 1, displayMemberPath: 'наименование' })
     })
   });
 

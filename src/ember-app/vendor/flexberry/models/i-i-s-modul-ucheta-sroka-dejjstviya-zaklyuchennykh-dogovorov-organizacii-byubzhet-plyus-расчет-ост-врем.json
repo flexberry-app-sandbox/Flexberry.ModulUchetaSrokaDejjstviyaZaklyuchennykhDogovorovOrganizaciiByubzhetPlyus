@@ -111,8 +111,8 @@
       ],
       "hasMany": [
         {
-          "projectionName": "ОказУслугE",
-          "caption": "Оказ услуг",
+          "projectionName": "ОказаниеУслугE",
+          "caption": "Оказание услуг",
           "name": "оказУслуг",
           "relatedTo": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-organizacii-byubzhet-plyus-оказ-услуг",
           "inverse": null

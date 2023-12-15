@@ -7,6 +7,14 @@
       "relationName": "Договор",
       "projection": "ДоговорL",
       "detailModelName": null
+    },
+    {
+      "master": "услуги",
+      "displayAttributeName": "наименование",
+      "required": true,
+      "relationName": "ОказУслуг.Услуги",
+      "projection": "УслугиL",
+      "detailModelName": "i-i-s-modul-ucheta-sroka-dejjstviya-zaklyuchennykh-dogovorov-organizacii-byubzhet-plyus-оказ-услуг"
     }
   ],
   "external": false,

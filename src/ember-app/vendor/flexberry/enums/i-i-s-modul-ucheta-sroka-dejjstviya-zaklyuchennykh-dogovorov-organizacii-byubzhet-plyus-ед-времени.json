@@ -1,0 +1,10 @@
+﻿{
+  "nameSpace": "IIS.Modul_ucheta_sroka_dejjstviya_zaklyuchennykh_dogovorov_organizacii_ByubzhetPlyus",
+  "className": "ЕдВремени",
+  "enumObjects": {
+    "Год": "Год",
+    "Месяц": "Месяц",
+    "День": "День",
+    "Час": "Час"
+  }
+}
